@@ -52,7 +52,7 @@ function botPrint(int $size): void
         echo PHP_EOL;
     }
 }
-
+12
 $sideLenght = $argv[1] ?? null;
 $direction = $argv[2] ?? null;
 
