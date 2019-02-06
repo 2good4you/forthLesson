@@ -60,5 +60,3 @@ if (is_numeric($sideLenght) && $direction == ('bot' || 'right')) {
     return setDirection($sideLenght, $direction);
 }
 echo 'U need to enter numeric <side_lenght> and <direction (bot|right)> ' . PHP_EOL;
-
-
