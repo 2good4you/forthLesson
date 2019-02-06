@@ -53,8 +53,6 @@ function botPrint(int $size): void
     }
 }
 
-$argv;
-
 $sideLenght = $argv[1] ?? null;
 $direction = $argv[2] ?? null;
 
