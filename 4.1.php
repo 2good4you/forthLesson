@@ -32,7 +32,7 @@ function makingRhombus ($value) {
 
 }
 
-$times = (int)$argv[1];
+$times = isset($argv[1]) ? (int) $argv[1]: null;
 
 switch ($times) {
     case $times === false:
